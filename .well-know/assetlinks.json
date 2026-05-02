@@ -1,1 +1,14 @@
-
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.syphen.wubbu",
+      "sha256_cert_fingerprints": [
+        "3C:7B:FF:16:6F:61:3C:AD:BC:75:51:42:58:72:06:FB:27:1F:17:9F:29:39:2A:EB:F2:BB:6C:61:AC:F3:73:03"
+      ]
+    }
+  }
+]
