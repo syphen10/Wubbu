@@ -1,23 +1,23 @@
-[
-  {
-    "relation": [
-      "delegate_permission/common.handle_all_urls"
-    ],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "com.syphen.wubbu",
-      "sha256_cert_fingerprints": [
-        "3C:7B:FF:16:6F:61:3C:AD:BC:75:51:42:58:72:06:FB:27:1F:17:9F:29:39:2A:EB:F2:BB:6C:61:AC:F3:73:03"
-      ]
-    }
-  },
-  {
-    "relation": [
-      "check_validation"
-    ],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "com.syphen.wubbu"
-    }
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.github.syphen10.twa",
+    "sha256_cert_fingerprints": ["7A:96:8D:F5:33:14:40:83:8A:72:CE:1B:9C:01:F6:A5:76:7D:2E:9E:E4:ED:F4:1A:60:D9:DC:2F:91:77:E1:E6"]
   }
-]
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.syphen.wubbu",
+    "sha256_cert_fingerprints": ["3C:7B:FF:16:6F:61:3C:AD:BC:75:51:42:58:72:06:FB:27:1F:17:9F:29:39:2A:EB:F2:BB:6C:61:AC:F3:73:03"]
+  }
+},
+{
+  "relation": ["check_validation"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.syphen.wubbu"
+  }
+}]
